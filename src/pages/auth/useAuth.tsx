@@ -17,7 +17,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [token, setToken] = useLocalStorageState<string>("token", "");
 
   const login = async (email: string, password: string) => {
-    console.log({ email, password });
     const data = await makeRequest<AuthResponse>("/auth/login", {
       method: "POST",
       data: {

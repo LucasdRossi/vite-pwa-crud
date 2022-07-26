@@ -89,7 +89,7 @@ export function CompaniesProvider({ children }: { children: React.ReactNode }) {
       setIsLoading(true);
       const response = await makeRequest<
         ValidationResponse | PayloadResponse<CompanyDetails>
-      >("/company", {
+      >(`/company/${company.id}`, {
         method: "PUT",
         data: company,
         token,
