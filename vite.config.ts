@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       injectRegister: "auto",
       strategies: "generateSW",
-      base: "/src/assets",
-      includeAssets: ["/favicon.ico"],
+      base: "/",
+      includeAssets: ["/src/assets/favicon.ico"],
       manifest: {
         name: "VitePWA",
         short_name: "VitePWA",
@@ -23,12 +23,22 @@ export default defineConfig({
         start_url: "/",
         icons: [
           {
-            src: "/android-chrome-192x192",
+            src: "src/assets/android-chrome-192x192",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "/android-chrome-512x512",
+            src: "src/assets/android-chrome-512x512",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/src/assets/android-chrome-192x192",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/src/assets/android-chrome-512x512",
             sizes: "512x512",
             type: "image/png",
           },
