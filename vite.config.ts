@@ -9,6 +9,17 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       injectRegister: "auto",
+      strategies: "injectManifest",
+      manifest: {
+        name: "VitePWA",
+        short_name: "VitePWA",
+        description: "VitePWA",
+        background_color: "#fafafa",
+        theme_color: "#fafafa",
+        display: "standalone",
+        orientation: "portrait",
+        start_url: "/",
+      },
     }),
   ],
 });
