@@ -9,7 +9,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       injectRegister: "auto",
-      strategies: "injectManifest",
+      strategies: "generateSW",
       manifest: {
         name: "VitePWA",
         short_name: "VitePWA",
