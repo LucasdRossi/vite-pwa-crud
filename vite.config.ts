@@ -10,6 +10,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       injectRegister: "auto",
       strategies: "generateSW",
+      base: "/src/assets",
+      includeAssets: ["/favicon.ico"],
       manifest: {
         name: "VitePWA",
         short_name: "VitePWA",
@@ -19,6 +21,18 @@ export default defineConfig({
         display: "standalone",
         orientation: "portrait",
         start_url: "/",
+        icons: [
+          {
+            src: "/android-chrome-192x192",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/android-chrome-512x512",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
       },
     }),
   ],
