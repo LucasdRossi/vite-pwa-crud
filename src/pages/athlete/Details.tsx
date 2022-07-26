@@ -50,7 +50,7 @@ export default function () {
       isOpen
       onDismiss={onDismiss}
       aria-labelledby="athlete details"
-      className="rounded-lg shadow-md sm:w-screen lg:w-3/6"
+      className="rounded-lg shadow-md w-screen lg:w-3/6"
     >
       {!athlete ? (
         <p>Loading...</p>

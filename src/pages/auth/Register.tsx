@@ -26,7 +26,7 @@ export default function Register() {
     <div className="flex justify-center w-full h-scree">
       <form
         onSubmit={handleSubmit}
-        className="xl:w-2/5 lg:w-2/5 md:w-4/5 sm:w-4/5 mt-52 h-96 px-5 text-lg shadow-md rounded-md bg-white flex flex-col justify-center"
+        className="xl:w-2/5 lg:w-2/5 md:w-4/5 w-4/5 mt-52 h-96 px-5 text-lg shadow-md rounded-md bg-white flex flex-col justify-center"
       >
         <div className="w-full flex flex-col mt-5">
           <label htmlFor="email">Email</label>

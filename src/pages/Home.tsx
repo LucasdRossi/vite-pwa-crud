@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Header login />
-      <main className="flex justify-center items-center h-96 sm:flex-col md:flex-row">
+      <main className="flex justify-center items-center h-96 flex-col md:flex-row">
         <ListCard title="Athletes ⛹🏼‍♂️" to="/athletes" />
         <ListCard title="Companies 🏢" to="/companies" />
       </main>

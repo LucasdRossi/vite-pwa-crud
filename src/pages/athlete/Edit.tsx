@@ -57,7 +57,7 @@ export default function () {
       isOpen
       onDismiss={onDismiss}
       aria-labelledby="edit athlete"
-      className="rounded-lg shadow-md sm:w-screen lg:w-3/6"
+      className="rounded-lg shadow-md w-screen lg:w-3/6"
     >
       <h1 className="text-xl">Add Athlete</h1>
       <form onSubmit={handleSubmit} ref={formRef}>

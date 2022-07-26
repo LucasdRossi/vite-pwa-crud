@@ -31,7 +31,7 @@ export default function Login() {
       <div className="flex justify-center">
         <form
           onSubmit={handleSubmit}
-          className="xl:w-2/5 lg:w-2/5 md:w-4/5 sm:w-4/5 mt-52 h-72 px-5 text-lg shadow-md rounded-md flex flex-col justify-center"
+          className="xl:w-2/5 lg:w-2/5 md:w-4/5 w-4/5 mt-52 h-72 px-5 text-lg shadow-md rounded-md flex flex-col justify-center"
         >
           <div className="w-full flex flex-col">
             <label htmlFor="email">Email</label>

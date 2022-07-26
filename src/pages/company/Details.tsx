@@ -46,7 +46,7 @@ export default function () {
       isOpen
       onDismiss={onDismiss}
       aria-labelledby="company details"
-      className="rounded-lg shadow-md sm:w-screen lg:w-3/6"
+      className="rounded-lg shadow-md w-screen lg:w-3/6"
     >
       {!company ? (
         <p>Loading...</p>
