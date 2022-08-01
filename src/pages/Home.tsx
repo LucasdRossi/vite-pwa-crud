@@ -8,7 +8,6 @@ export default function Home() {
       <main className="flex justify-center items-center h-96 flex-col md:flex-row">
         <ListCard title="Athletes ⛹🏼‍♂️" to="/athletes" />
         <ListCard title="Companies 🏢" to="/companies" />
-        <ListCard title="Teste Atualização" to="/teste" />
       </main>
     </>
   );
